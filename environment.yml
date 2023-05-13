@@ -1,0 +1,14 @@
+name: torch
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - torchaudio==0.10.0
+  - cudatoolkit=10.2
+  - pytorch==1.10.0
+  - torchvision==0.11.0
+  - datasets
+  - transformers
+  - urllib3
+  - dgl-cuda10.2
+prefix: /home/14cfl/anaconda3/envs/torch
